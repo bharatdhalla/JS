@@ -1,0 +1,15 @@
+console.log("This is JavaScript, Learning var,let & const");
+
+//! var is globally scoped while let & const are block scoped.
+
+var a = 100;
+let b = "Bharat";
+const c = "Developer";
+
+// var can be updated and redeclared within its own scope.
+var a = 1000;
+// let can be updated but not redeclared.
+b = "Bharat";
+// const can neither be updated nor redeclared.
+
+console.log(a, b, c);
