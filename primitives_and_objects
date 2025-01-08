@@ -1,0 +1,26 @@
+// ---- Primitive Datatypes : nn bb ss u ------
+
+let n1 = null;  // null
+let n2 = 345;  // number
+
+let b1 = true;  // boolean, it can also be false
+let b2 = BigInt(12345678910) + BigInt(12345);
+
+let s1 = "Bharat";
+let s2 = Symbol("It's a nice symbol");
+
+let u1 = undefined;
+
+console.log(n1,n2,b1,b2,s1,s2,u1);
+console.log(typeof c);
+
+// ---- Objects are Non - Primitive Datatypes   ------
+// Objects are the Key - value pairs.
+
+const item = {
+	"Bharat" : true,
+	"Rohit" : false,
+	"a" : 65,
+	"b" : undefined
+}
+console.log(item["Bharat"]);
